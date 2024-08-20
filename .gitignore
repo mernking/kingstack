@@ -1,0 +1,10 @@
+# Ignore node_modules in the root
+node_modules/
+
+# Ignore node_modules in client and server folders
+/client/node_modules/
+/server/node_modules/
+
+# Optionally, ignore other files like logs or environment files
+*.log
+.env
